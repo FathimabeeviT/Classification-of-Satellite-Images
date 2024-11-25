@@ -1,0 +1,8 @@
+
+Classification of Satellite Images
+
+
+The use of satellite imagery combined with crowdsourced geospatial data has gained attention for solving complex environmental and urban planning problems. This project addresses one such challenge: classifying land cover types from satellite images using crowdsourced data from OpenStreetMap. The goal is to automate the classification of satellite images into distinct land cover classes such as impervious surfaces, farms, forests, grasslands, orchards, and water bodies. The problem arises from the need to efficiently manage and monitor large geographic areas for various applications, including environmental conservation, agricultural management, and urban planning. However, both the images and crowdsourced data often contain noise, which makes the classification task challenging. Accurate classification can improve the ability to monitor land use changes, plan resources, and optimize land management practices.
+
+
+This project aims to automate land cover classification by time-series satellite imagery from Landsat (2014-2015) and crowdsourced geospatial data from OpenStreetMap. The dataset includes NDVI values to classify six land cover types: impervious surfaces, farms, forests, grasslands, orchards, and water bodies. A key challenge is the presence of noise in the training data due to cloud cover and labeling inaccuracies in the crowdsourced polygons. Using machine learning techniques, the project focuses on preprocessing noisy data, feature selection, and accurate classification, demonstrating the potential to speed up land cover analysis for environmental monitoring.
